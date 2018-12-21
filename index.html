@@ -1,22 +1,137 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HREXT06 Cruddy App</title>
-    <link rel="stylesheet" href="style.css">
-    <script
+    <title>Hack Reactor Store</title>
+       <link rel="stylesheet" href="style.css">
+         <script
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+          <script src="app.js"></script>
   </head>
-  <body>
-  <div>
-    <input class="text-entry" type="text" placeholder="enter your information">
-    <button class="btn-submit" type="button">save value</button>
-    <button class="btn-delete" type="button">delete value</button>
-  </div>
-  <div class="list-display-field">
+    <body>
+    <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a style="float:right" href="#about">About</a>
+     </div>
+      <nav class="imq">
+  <a href="https://www.hackreactor.com/"><img src="https://static1.squarespace.com/static/ta/522a22cbe4b04681b0bff826/3209/assets/images/logo/HR_at_Galvanize_Stacked.png" alt="Hack Reactor logo" width="200" height="40"></a>
+  </nav>
+      <form class="selectionform">
+      <div class="photo">
+              <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnuq_PzM4CLDJnqLy5cn0LHKDkcOP8s2P5f74GrWM8yh7TxVJ7DQ" width = "300" height = "270">
+            </br> 
+            <p>Smile </p>
+            <p><strong>$10.00</strong> </p> 
+            <input type="checkbox" name="img1" value="img1">
+              </br>
+         </div>
+         <div class="photo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rVqxZSVxpxrFSrNUp0iV5yPtk3LzNnAvrhB4ELXhKfSBeteN" width = "300" height = "270">
+            </br> 
+            <p>Champion</p>
+            <p><strong>$15.00</strong></p> 
+            <input type="checkbox" name="img2" value="img2">
+              </br>
+            </div>
+            <div class="photo">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7msDdUjUjKAxvQ7I2N9E5B4hL4amw2fwhlQmBFrEoFz-ps9zX" width = "300" height = "270">
+            </br> 
+            <p>Magician</p>
+            <p><strong>$20.00</strong></p> 
+            <input type="checkbox" name="img3" value="img3">
+              </br>
+            </div>
+            <div class="photo">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UjOQkECCT5aUYPRnedYpPUNofcGRgP3Qc8Feyt9b0yI2y62DYQ" width = "300" height = "270">
+            </br> 
+            <p>Apple</p>
+            <p><strong>$25.00</strong></p> 
+            <input type="checkbox" name="img4" value="img4">
+              </br>
+            </div>
+            <div class="photo">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScwavPMB3CtvyaFkyFt9oXZOa3mvI3M7MFKEkvB2HIa52k4vT8" width = "300" height = "270">
+            </br> 
+            <p>Hoodie</p>
+            <p><strong>$35.00</strong></p> 
+            <input type="checkbox" name="img5" value="img5">
+              </br>
+            </div>
+            <div class="photo">
+              <img src="   https://encrypted-tbn0.gstatic.com/ images?q=tbn:ANd9GcRZomXK43xGJH_arRe-Pdqugk9W2h-479Wo7VkjPpwmIy4FEe1C" width = "300" height = "270">
+            </br>
+            <p>Off-Duty</p>
+            <p><strong>$50.00</strong></p> 
+            <input type="checkbox" name="img6" value="img6">
+              </br>
+            </div>
+
+            <div class="photo">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBXk0oGMYA9DiILK07NLbuBVI_Pj9OZR3-f2XPF15RI0uIlIKBg" width = "300" height = "270">
+            </br> 
+            <p>Hacker University</p>
+            <p><strong>$30.00</strong></p> 
+            <input type="checkbox" name="img7" value="img7">
+              </br>
+            </div>
+
+            <div class="photo"> 
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxSnbfNyFgUwaoZXCStwke3LRN-3Rd8zzHgBS7e3OohE1bgB_IGw" width="300" height="270">
+            </br> 
+            <p>Champion</p>
+            <p><strong>$27.00</strong></p> 
+            <input type="checkbox" name="img8" value="img8">
+              </br>
+            </div>
+
+            <div class="photo">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj4CoXuRCxZbciIsFddkz0bUmKCXk6QEeemN8xSa08ao7v1quO" width="300" height="270">
+            </br> 
+            <p>Electrical</p>
+            <p><strong>$40.00</strong></p> 
+            <input type="checkbox" name="img9" value="img9">
+              </br>
+            </div>
+
+            <div class="photo">
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwp7ZhvHV-CpOvE-jv9c9R0LkVuKPUbiTrdi7m41RGQdj2OIjT" width="300" height="270">
+            </br> 
+            <p>Brave Heart</p>
+            <p><strong>$49.99</strong></p> 
+            <input type="checkbox" name="img10" value="img10">
+              </br>
+            </div>
+            <div class="photo">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxH4ZbWo0ZzU055IPbJEsTgt7dWQUEb9SqELUrVIZD6ng3zoe1" width="300" height="270">
+            </br> 
+            <p>HAcKr</p>
+            <p><strong>$60.00</strong></p> 
+            <input type="checkbox" name="img11" value="img11">
+              </br>
+            </div>
+            <div class="photo">
+                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiZD6E8DQoC3LUXqa-03sVpqrxDZy37PLbgOwZHkLHzTkkVMld" height="270" width="300">
+            </br> 
+            <p>Ethernet</p>
+            <p><strong>$49.00</strong></p> 
+            <input type="checkbox" name="img12" value="img12">
+              </br>
+            </div>
+<!-- </ul> -->
+ <button class="addcart" type="button">ADD TO CART </button>
+</form>
+<button class="edit" type="button">Edit</button>
+<button class="delete" type="button">DELETE</button>
+ <button class="checkout" type="button">CHECKOUT</button>
+    <!-- <input class="text-entry" type="text" placeholder="enter your information">
+    <button class="btn-submit" type="button">Confirm Order</button>
+    <button class="btn-delete" type="button">delete value</button> -->
+
+ <!--  <div class="list-display-field">
     nothing to display yet
-  </div>
+  </div> -->
   </body>
 </html>
